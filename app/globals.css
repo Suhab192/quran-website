@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================================================
+   ENGLISH FONTS
+   ================================================ */
+
+/* Cinzel */
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/english/Cinzel-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cinzel';
+  src: url('/english/Cinzel-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Copperplate Gothic */
+@font-face {
+  font-family: 'Copperplate Gothic Light';
+  src: url('/english/copperplate-gothic-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Copperplate Gothic';
+  src: url('/english/Copperplate-Gothic-Std-32-BC.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Julius Sans One */
+@font-face {
+  font-family: 'Julius Sans One';
+  src: url('/english/JuliusSansOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Lemon Milk */
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('/english/LemonMilk.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('/english/LemonMilkbold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Optimus Princeps */
+@font-face {
+  font-family: 'Optimus Princeps';
+  src: url('/english/OptimusPrinceps.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Optimus Princeps';
+  src: url('/english/OptimusPrincepsSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Trajan Pro */
+@font-face {
+  font-family: 'Trajan Pro';
+  src: url('/english/Trajan-Pro-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================
+   ARABIC FONTS
+   ================================================ */
+
+/* Thuluth */
+@font-face {
+  font-family: 'A Thuluth';
+  src: url('/arabic/A-Thuluth-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AM Thulth';
+  src: url('/arabic/AM-Thulth-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* KFGQPC Hafs Uthmanic Script */
+@font-face {
+  font-family: 'KFGQPC Hafs';
+  src: url('/arabic/KfgqpcHafsUthmanicScript.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* KFGQPC Hafs Taweel */
+@font-face {
+  font-family: 'KFGQPC Hafs Taweel';
+  src: url('/arabic/Elgharib-KFGQPC-Hafs-TAWEEL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Lifta */
+@font-face {
+  font-family: 'Lifta Black';
+  src: url('/arabic/Lifta-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lifta Swash';
+  src: url('/arabic/Liftaswashfixed-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Elgharib Specialty Fonts */
+@font-face {
+  font-family: 'Surah Name Diwani';
+  src: url('/arabic/Elgharib-Surah-Name-Diwani.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quraa Diwani';
+  src: url('/arabic/Elgharib-AYB-QuraaDiwani.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quraa Names';
+  src: url('/arabic/Elgharib-Khalid-Quraa-Names.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quraa Alharamayn';
+  src: url('/arabic/Elgharib-Quraa-Alharamayn.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Surah Ejazah';
+  src: url('/arabic/Surah-Name-Ejazah.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ================================================
+   BASE STYLES
+   ================================================ */
+
+:root {
+  --gold-shadow: 0 0 10px rgba(212, 175, 55, 0.5), 0 0 20px rgba(212, 175, 55, 0.3);
+  --gold-color: #d4af37;
+}
+
+body {
+  @apply bg-neutral-950 text-white antialiased;
+}
