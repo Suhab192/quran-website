@@ -4,187 +4,256 @@
 
 /* ================================================
    ENGLISH FONTS
+   Each weight is a separate font-family.
+   Paths verified against public/english/
    ================================================ */
 
-/* Cinzel */
+/* File: Cinzel-Regular.otf */
 @font-face {
-  font-family: 'Cinzel';
+  font-family: 'Cinzel-Regular';
   src: url('/english/Cinzel-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: Cinzel-Bold.otf */
 @font-face {
-  font-family: 'Cinzel';
+  font-family: 'Cinzel-Bold';
   src: url('/english/Cinzel-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* Copperplate Gothic */
+/* File: copperplate-gothic-light.ttf */
 @font-face {
-  font-family: 'Copperplate Gothic Light';
+  font-family: 'Copperplate-Gothic-Light';
   src: url('/english/copperplate-gothic-light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: Copperplate-Gothic-Std-32-BC.ttf */
 @font-face {
-  font-family: 'Copperplate Gothic';
+  font-family: 'Copperplate-Gothic-Std-32-BC';
   src: url('/english/Copperplate-Gothic-Std-32-BC.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-/* Julius Sans One */
+/* File: JuliusSansOne-Regular.ttf */
 @font-face {
-  font-family: 'Julius Sans One';
+  font-family: 'JuliusSansOne-Regular';
   src: url('/english/JuliusSansOne-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-/* Lemon Milk */
+/* File: LemonMilk.otf */
 @font-face {
-  font-family: 'Lemon Milk';
+  font-family: 'LemonMilk';
   src: url('/english/LemonMilk.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: LemonMilkbold.otf */
 @font-face {
-  font-family: 'Lemon Milk';
+  font-family: 'LemonMilk-Bold';
   src: url('/english/LemonMilkbold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* Optimus Princeps */
+/* File: OptimusPrinceps.ttf */
 @font-face {
-  font-family: 'Optimus Princeps';
+  font-family: 'OptimusPrinceps';
   src: url('/english/OptimusPrinceps.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: OptimusPrincepsSemiBold.ttf */
 @font-face {
-  font-family: 'Optimus Princeps';
+  font-family: 'OptimusPrinceps-SemiBold';
   src: url('/english/OptimusPrincepsSemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
-/* Trajan Pro */
+/* File: TrajanProBold.ttf */
 @font-face {
-  font-family: 'Trajan Pro';
-  src: url('/english/Trajan-Pro-Bold.ttf') format('truetype');
+  font-family: 'TrajanPro-Bold';
+  src: url('/english/TrajanProBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 /* ================================================
-   ARABIC FONTS
+   ARABIC FONTS — Text Fonts
+   Paths verified against public/arabic/
    ================================================ */
 
-/* Thuluth */
+/* File: AThuluthRegular.ttf */
 @font-face {
-  font-family: 'A Thuluth';
-  src: url('/arabic/A-Thuluth-Regular.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'AThuluth-Regular';
+  src: url('/arabic/AThuluthRegular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: AM_Thulth_Regular.ttf */
 @font-face {
-  font-family: 'AM Thulth';
-  src: url('/arabic/AM-Thulth-Regular.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'AMThulth-Regular';
+  src: url('/arabic/AM_Thulth_Regular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* KFGQPC Hafs Uthmanic Script */
+/* File: Elgharib-KFGQPC-HafsTAWEEL.ttf */
 @font-face {
-  font-family: 'KFGQPC Hafs';
-  src: url('/arabic/KfgqpcHafsUthmanicScript.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Elgharib-KFGQPC-HafsTAWEEL';
+  src: url('/arabic/Elgharib-KFGQPC-HafsTAWEEL.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* KFGQPC Hafs Taweel */
+/* File: KfgqpcHafsUthmanicScriptRegular.ttf */
 @font-face {
-  font-family: 'KFGQPC Hafs Taweel';
-  src: url('/arabic/Elgharib-KFGQPC-Hafs-TAWEEL.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'KfgqpcHafsUthmanic';
+  src: url('/arabic/KfgqpcHafsUthmanicScriptRegular.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* Lifta */
+/* File: Lifta-Black.otf */
 @font-face {
-  font-family: 'Lifta Black';
+  font-family: 'Lifta-Black';
   src: url('/arabic/Lifta-Black.otf') format('opentype');
-  font-weight: 900;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: Liftaswashfixed-Regular.otf */
 @font-face {
-  font-family: 'Lifta Swash';
+  font-family: 'Liftaswash-Regular';
   src: url('/arabic/Liftaswashfixed-Regular.otf') format('opentype');
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
-/* Elgharib Specialty Fonts */
+/* ================================================
+   ARABIC FONTS — Symbol / Mapping Fonts
+   CRITICAL: font-weight MUST be normal.
+   Bold makes symbol fonts render as boxes or blanks.
+   Paths verified against public/arabic/
+   ================================================ */
+
+/* GROUP A: 3-digit padded (001, 002, 003) */
+
+/* File: SurahNameEjazah.ttf */
 @font-face {
-  font-family: 'Surah Name Diwani';
-  src: url('/arabic/Elgharib-Surah-Name-Diwani.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'SurahNameEjazah';
+  src: url('/arabic/SurahNameEjazah.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: Elgharib-SurahNameDiwani.ttf */
 @font-face {
-  font-family: 'Quraa Diwani';
+  font-family: 'Elgharib-SurahNameDiwani';
+  src: url('/arabic/Elgharib-SurahNameDiwani.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* GROUP B: Raw digits (1, 2, 3) — no leading zeros */
+
+/* File: Elgharib-AYB-QuraaDiwani.ttf */
+@font-face {
+  font-family: 'Elgharib-AYB-QuraaDiwani';
   src: url('/arabic/Elgharib-AYB-QuraaDiwani.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: Elgharib-Khalid-QuraaNames.ttf */
 @font-face {
-  font-family: 'Quraa Names';
-  src: url('/arabic/Elgharib-Khalid-Quraa-Names.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Elgharib-Khalid-QuraaNames';
+  src: url('/arabic/Elgharib-Khalid-QuraaNames.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: GF-FAYED-RecitersName.ttf */
 @font-face {
-  font-family: 'Quraa Alharamayn';
+  font-family: 'GF-FAYED-RecitersName';
+  src: url('/arabic/GF-FAYED-RecitersName.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* File: Elgharib-RafekatAlward-Ramadan.ttf */
+@font-face {
+  font-family: 'Elgharib-RafekatAlward-Ramadan';
+  src: url('/arabic/Elgharib-RafekatAlward-Ramadan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* File: Elgharib-Quraa-Alharamayn.ttf */
+@font-face {
+  font-family: 'Elgharib-Quraa-Alharamayn';
   src: url('/arabic/Elgharib-Quraa-Alharamayn.ttf') format('truetype');
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
+/* File: Elgharib-AYB-NameOfQuraa.ttf */
 @font-face {
-  font-family: 'Surah Ejazah';
-  src: url('/arabic/Surah-Name-Ejazah.ttf') format('truetype');
-  font-weight: 400;
+  font-family: 'Elgharib-AYB-NameOfQuraa';
+  src: url('/arabic/Elgharib-AYB-NameOfQuraa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* File: Elgharib-KHolood-Ramadan.ttf */
+@font-face {
+  font-family: 'Elgharib-KHolood-Ramadan';
+  src: url('/arabic/Elgharib-KHolood-Ramadan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* File: Elgharib-Ayoub-RamadanDates.ttf */
+@font-face {
+  font-family: 'Elgharib-Ayoub-RamadanDates';
+  src: url('/arabic/Elgharib-Ayoub-RamadanDates.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
