@@ -105,8 +105,8 @@
 
 /* File: AThuluthRegular.ttf */
 @font-face {
-  font-family: 'AThuluth-Regular';
-  src: url('/arabic/AThuluthRegular.ttf') format('truetype');
+  font-family: 'a-thuluth';
+  src: url('/arabic/a-thuluth.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -114,8 +114,8 @@
 
 /* File: AM_Thulth_Regular.ttf */
 @font-face {
-  font-family: 'AMThulth-Regular';
-  src: url('/arabic/AM_Thulth_Regular.ttf') format('truetype');
+  font-family: 'am-thulth';
+  src: url('/arabic/am-thulth.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -123,8 +123,8 @@
 
 /* File: Elgharib-KFGQPC-HafsTAWEEL.ttf */
 @font-face {
-  font-family: 'Elgharib-KFGQPC-HafsTAWEEL';
-  src: url('/arabic/Elgharib-KFGQPC-HafsTAWEEL.ttf') format('truetype');
+  font-family: 'hafs-taweel';
+  src: url('/arabic/hafs-taweel.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -132,8 +132,8 @@
 
 /* File: KfgqpcHafsUthmanicScriptRegular.ttf */
 @font-face {
-  font-family: 'KfgqpcHafsUthmanic';
-  src: url('/arabic/KfgqpcHafsUthmanicScriptRegular.ttf') format('truetype');
+  font-family: 'hafs-uthmanic';
+  src: url('/arabic/hafs-uthmanic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -141,7 +141,7 @@
 
 /* File: Lifta-Black.otf */
 @font-face {
-  font-family: 'Lifta-Black';
+  font-family: 'lifta-black';
   src: url('/arabic/Lifta-Black.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
@@ -150,8 +150,8 @@
 
 /* File: Liftaswashfixed-Regular.otf */
 @font-face {
-  font-family: 'Liftaswash-Regular';
-  src: url('/arabic/Liftaswashfixed-Regular.otf') format('opentype');
+  font-family: 'liftaswash';
+  src: url('/arabic/liftaswash.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -168,8 +168,8 @@
 
 /* File: SurahNameEjazah.ttf */
 @font-face {
-  font-family: 'SurahNameEjazah';
-  src: url('/arabic/SurahNameEjazah.ttf') format('truetype');
+  font-family: 'surah-ejazah';
+  src: url('/arabic/surah-ejazah.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -177,8 +177,8 @@
 
 /* File: Elgharib-SurahNameDiwani.ttf */
 @font-face {
-  font-family: 'Elgharib-SurahNameDiwani';
-  src: url('/arabic/Elgharib-SurahNameDiwani.ttf') format('truetype');
+  font-family: 'surah-diwani';
+  src: url('/arabic/surah-diwani.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -188,8 +188,8 @@
 
 /* File: Elgharib-AYB-QuraaDiwani.ttf */
 @font-face {
-  font-family: 'Elgharib-AYB-QuraaDiwani';
-  src: url('/arabic/Elgharib-AYB-QuraaDiwani.ttf') format('truetype');
+  font-family: 'ayb-quraa-diwani';
+  src: url('/arabic/ayb-quraa-diwani.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -197,8 +197,8 @@
 
 /* File: Elgharib-Khalid-QuraaNames.ttf */
 @font-face {
-  font-family: 'Elgharib-Khalid-QuraaNames';
-  src: url('/arabic/Elgharib-Khalid-QuraaNames.ttf') format('truetype');
+  font-family: 'quraa-names';
+  src: url('/arabic/quraa-names.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -206,8 +206,8 @@
 
 /* File: GF-FAYED-RecitersName.ttf */
 @font-face {
-  font-family: 'GF-FAYED-RecitersName';
-  src: url('/arabic/GF-FAYED-RecitersName.ttf') format('truetype');
+  font-family: 'gf-fayed-reciters';
+  src: url('/arabic/gf-fayed-reciters.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -215,8 +215,8 @@
 
 /* File: Elgharib-RafekatAlward-Ramadan.ttf */
 @font-face {
-  font-family: 'Elgharib-RafekatAlward-Ramadan';
-  src: url('/arabic/Elgharib-RafekatAlward-Ramadan.ttf') format('truetype');
+  font-family: 'rafekat-ramadan';
+  src: url('/arabic/rafekat-ramadan.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -224,8 +224,8 @@
 
 /* File: Elgharib-Quraa-Alharamayn.ttf */
 @font-face {
-  font-family: 'Elgharib-Quraa-Alharamayn';
-  src: url('/arabic/Elgharib-Quraa-Alharamayn.ttf') format('truetype');
+  font-family: 'quraa-alharamayn';
+  src: url('/arabic/quraa-alharamayn.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -233,8 +233,8 @@
 
 /* File: Elgharib-AYB-NameOfQuraa.ttf */
 @font-face {
-  font-family: 'Elgharib-AYB-NameOfQuraa';
-  src: url('/arabic/Elgharib-AYB-NameOfQuraa.ttf') format('truetype');
+  font-family: 'ayb-name-of-quraa';
+  src: url('/arabic/ayb-name-of-quraa.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -242,8 +242,8 @@
 
 /* File: Elgharib-KHolood-Ramadan.ttf */
 @font-face {
-  font-family: 'Elgharib-KHolood-Ramadan';
-  src: url('/arabic/Elgharib-KHolood-Ramadan.ttf') format('truetype');
+  font-family: 'kholood';
+  src: url('/arabic/kholood.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -251,8 +251,8 @@
 
 /* File: Elgharib-Ayoub-RamadanDates.ttf */
 @font-face {
-  font-family: 'Elgharib-Ayoub-RamadanDates';
-  src: url('/arabic/Elgharib-Ayoub-RamadanDates.ttf') format('truetype');
+  font-family: 'ramadan-dates';
+  src: url('/arabic/ramadan-dates.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

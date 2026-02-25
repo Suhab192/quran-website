@@ -42,7 +42,7 @@ const surahFonts: FontEntry[] = [
 
 // ── GF-FAYED — special probe text ──
 const gfFayedFont: FontEntry = {
-  name: "gf-fayed-reciters", tailwindClass: "font-gf-fayed-reciters", cssFamily: "'gf-fayed-reciters'", file: "gf-fayed-reciters.ttf", displayText: "a b c 1 2",
+  name: "gf-fayed-reciters", tailwindClass: "font-gf-fayed-reciters", cssFamily: "'gf-fayed-reciters'", file: "gf-fayed-reciters.ttf", displayText: "2  3  4  5",
 };
 
 // ── All other mapping fonts — display: 1  2  3  4 ──
@@ -269,7 +269,7 @@ export default function FontGallery() {
           <h2 className="text-2xl font-light text-emerald-300/80 tracking-widest uppercase">Surah Fonts ({surahFonts.length})</h2>
           <div className="h-px flex-1 bg-gradient-to-r from-transparent via-emerald-900/50 to-transparent" />
         </div>
-        <p className="text-center text-emerald-400/40 text-sm mb-10">001/002 are empty. Showing 003, 004.</p>
+        <p className="text-center text-emerald-400/40 text-sm mb-10">3-digit padded surah numbers. Showing 003 (Ali &apos;Imran), 004 (An-Nisa).</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           {surahFonts.map((f) => <SurahCard key={f.name} font={f} />)}
         </div>
@@ -282,7 +282,7 @@ export default function FontGallery() {
           <h2 className="text-2xl font-light text-sky-300/80 tracking-widest uppercase">GF-FAYED Reciters (1)</h2>
           <div className="h-px flex-1 bg-gradient-to-r from-transparent via-sky-900/50 to-transparent" />
         </div>
-        <p className="text-center text-sky-400/40 text-sm mb-10">Probe text: a b c 1 2 — finding which keys trigger calligraphy.</p>
+        <p className="text-center text-sky-400/40 text-sm mb-10">Digits 2–9 map to reciter names. Multi-digit sequences (e.g. 21, 103) map more.</p>
         <div className="grid grid-cols-1 gap-6">
           <MappingCard font={gfFayedFont} borderColor="border-sky-900/30 hover:border-sky-800/50" textColor="text-sky-100/90" tagColor="text-sky-400/80" tagBg="bg-sky-500/10" />
         </div>
