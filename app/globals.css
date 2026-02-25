@@ -239,11 +239,16 @@
   font-style: normal;
   font-display: swap;
 }
-/* File: Elgharib-KHolood-Ramadan.ttf */
 
+/* File: Elgharib-KHolood-Ramadan.ttf */
+@font-face {
+  font-family: 'Elgharib-KHolood-Ramadan';
+  src: url('/arabic/Elgharib-KHolood-Ramadan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-/* File: Elgharib-Ayoub-RamadanDates.ttf */
 /* File: Elgharib-Ayoub-RamadanDates.ttf */
 @font-face {
   font-family: 'Elgharib-Ayoub-RamadanDates';
